@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de El-Marshall, graphiste et développeur web. Découvrez mes projets créatifs et mes compétences techniques.">
+  <meta name="keywords" content="portfolio, graphiste, développeur web, design, HTML, CSS, JavaScript, El-Marshall">
+  <meta name="author" content="El-Marshall">
+  <title>Portfolio | El-Marshall - Graphiste & Développeur Web</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header role="banner">
+    <nav aria-label="Navigation principale">
+      <ul>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>El-Marshall</h1>
+    <p>Graphiste & Développeur Web</p>
+  </header>
+
+  <main>
+    <section id="projets" aria-labelledby="titre-projets">
+      <h2 id="titre-projets">Mes projets</h2>
+      <article>
+        <h3>Identité visuelle pour une marque locale</h3>
+        <p>Création d’un logo, charte graphique et supports imprimés pour une startup togolaise.</p>
+      </article>
+      <article>
+        <h3>Site vitrine responsive</h3>
+        <p>Développement d’un site HTML/CSS/JavaScript optimisé pour le SEO et l’accessibilité.</p>
+      </article>
+    </section>
+
+    <section id="competences" aria-labelledby="titre-competences">
+      <h2 id="titre-competences">Compétences</h2>
+      <ul>
+        <li>Design graphique : Photoshop, Illustrator, indesign</li>
+        <li>Développement web : HTML5, CSS3, JavaScript, Git</li>
+        <li>Accessibilité et SEO : bonnes pratiques, balisage sémantique</li>
+      </ul>
+    </section>
+
+    <section id="contact" aria-labelledby="titre-contact">
+      <h2 id="titre-contact">Contact</h2>
+      <p>Tu peux me contacter via <a href="mailto:elmarshall@example.com">elmarshall@example.com</a> ou sur mes réseaux sociaux.</p>
+      <form action="/envoyer-message" method="post" aria-label="Formulaire de contact">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 El-Marshall. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
